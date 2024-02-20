@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// https://www.madebychroma.com/typography/10-elegant-google-display-fonts-for-your-brand/
+//https://www.justinmind.com/blog/best-google-web-fonts-website/
+// fonts in css:font-family: "Lato", sans-serif;
+// "Bungee Shade", sans-serif;
+// "Roboto", sans-serif;
+
+
+body {
+    color: cadetblue;
+}
+
+header {
+    font-family: "Bungee Shade", sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    background: linear-gradient( to right,
+    #6f7280,
+    #7180f5,
+    #2d2dac,
+    #43ebb8);
+}
+
+// color is inherited from all descendant elements
