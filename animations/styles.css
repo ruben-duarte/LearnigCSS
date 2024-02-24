@@ -1,0 +1,39 @@
+body {
+    background-color: cadetblue;
+}
+
+.parent {
+    background-color: hsla(200, 100%, 30%);
+    height: 400px;
+    width: 400px;
+}
+
+.child {
+    background-color: rgb(37, 27, 175);
+    height: 25%;
+    width: 25%;
+    transition: transform 1s ease-in;
+}
+
+.parent:hover .child {
+    animation: left-to-right 4s ease-in forwards;
+}
+
+@keyframes left-to-right {
+    0%{
+        transform: translateX(0);
+    }
+
+    33%{
+        transform: translateY(200%);
+    }
+
+    67%{
+        transform: translateX(200%) translateY(200%);
+    }
+
+    100% {
+        transform: translateX(200%);
+    }
+}
+
